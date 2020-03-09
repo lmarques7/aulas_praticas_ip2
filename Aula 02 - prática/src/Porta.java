@@ -40,7 +40,8 @@ public class Porta {
         p.dimensaoY = 8.96;
         p.dimensaoZ = 1.49;
         
-        System.out.println(p.estaAberta());
+        boolean resultado = p.estaAberta();
+        System.out.println(resultado);
     }
 
 }
